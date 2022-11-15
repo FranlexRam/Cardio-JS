@@ -11,3 +11,15 @@ function reverseString (str) {
 }
 
 reverseString('hello');//olleh
+
+
+
+
+//// Luego, se deberia "limpiar" el codigo anterior en una sola linea:
+
+
+function reverseString (str) {
+    return str.split('').reverse().join('');
+}
+
+reverseString('hello');
